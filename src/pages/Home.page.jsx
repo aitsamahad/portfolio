@@ -6,6 +6,7 @@ import About from "src/templates/About"
 import Qualification from "src/templates/Education"
 import Experience from "src/templates/Experience"
 import Work from "src/templates/Work"
+import Contact from "src/templates/Contact"
 
 function HomePage() {
   return (
@@ -24,6 +25,9 @@ function HomePage() {
       <br />
       <br />
       <Qualification />
+      <br />
+      <br />
+      <Contact />
       <br />
       <br />
       <Footer />
