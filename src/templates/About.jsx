@@ -1,6 +1,7 @@
 import Heading from "@common/Heading"
 import Grid from "@mui/material/Grid"
 import React from "react"
+import Divider from "@mui/material/Divider"
 
 function About() {
   return (
@@ -30,6 +31,9 @@ function About() {
           alt='Aitsam Ahad illustration'
           width='60%'
         />
+      </Grid>
+      <Grid item xs={12}>
+        <Divider variant='middle' />
       </Grid>
     </Grid>
   )
