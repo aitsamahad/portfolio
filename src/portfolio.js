@@ -1,6 +1,24 @@
 export const PortfolioData = [
   {
     id: 1,
+    title: "BlockVideo - Video Streaming DAPP",
+    subtitle: "A decentralized video streaming platform.",
+    image: "/assets/dapp.png",
+    link: "https://github.com/aitsamahad/blockVideo",
+    tech: [
+      "ReactJS",
+      "Ethereum",
+      "Solidity",
+      "Truffle",
+      "Ganache",
+      "IPFS",
+      "Web3",
+      "Bootstrap",
+    ],
+    madeAt: "XIOTS",
+  },
+  {
+    id: 2,
     title: "iClerk - Invoicing Solution",
     subtitle: "Move towards a better invoicing solution.",
     image: "/assets/iclerk.jpeg",
@@ -22,7 +40,7 @@ export const PortfolioData = [
     madeAt: "XIOTS",
   },
   {
-    id: 2,
+    id: 3,
     title: "Drop - Multi Vendor eCommerce",
     subtitle: "Your favourite restaurants, delivered.",
     image: "/assets/drop.jpeg",
@@ -42,7 +60,7 @@ export const PortfolioData = [
     madeAt: "XIOTS",
   },
   {
-    id: 3,
+    id: 4,
     title: "Medicus - iOS/Android (Rest APIs)",
     subtitle: "Best doctors around the world, at your service.",
     image: "/assets/medicus.png",
@@ -66,7 +84,7 @@ export const PortfolioData = [
   //     subtitle: "Manage your catalogue at your ease.",
   //   },
   {
-    id: 4,
+    id: 5,
     title: "ROY - iOS/Android (Rest APIs)",
     subtitle: "Get your answers anonymously and easily.",
     image: "/assets/roy.png",
@@ -87,7 +105,7 @@ export const PortfolioData = [
   //     subtitle: "Manage your store and stocks availibility.",
   //   },
   {
-    id: 5,
+    id: 6,
     title: "WhatsOn - iOS/Android (Rest APIs)",
     subtitle: "Events ticket booking application.",
     image: "/assets/whatson.png",
