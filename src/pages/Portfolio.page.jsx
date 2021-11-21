@@ -19,7 +19,7 @@ function PortfolioPage() {
         <Heading>
           Archive <br />{" "}
           <small>
-            An Always updating list of things I've worked/working on
+            An Always updating list of things I&appos;ve worked/working on
           </small>
         </Heading>
       </Grid>
