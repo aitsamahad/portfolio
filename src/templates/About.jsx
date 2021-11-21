@@ -29,7 +29,7 @@ function About() {
         <img
           src='/assets/aitsam-illustration.svg'
           alt='Aitsam Ahad illustration'
-          width='60%'
+          width='400px'
         />
       </Grid>
       <Grid item xs={12}>
