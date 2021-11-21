@@ -1,15 +1,21 @@
 import React from "react"
 import styled from "styled-components"
 
-function PortfolioCard({ title, subtitle, image, link }) {
+function PortfolioCard({ title, subtitle, image, link, tech }) {
   return (
     <Card image={image}>
       <h4>{title}</h4>
       <h3>{subtitle}</h3>
       <span>
-        <a href={link} target='_blank'>
-          <u>View</u>
-        </a>
+        <b>Tech Stack: </b>
+        {tech?.join(", ")}
+      </span>
+      <span>
+        <b>
+          <a href={link} target='_blank'>
+            <u>View</u>
+          </a>
+        </b>
       </span>
     </Card>
   )
@@ -28,6 +34,11 @@ const Card = styled.div`
   padding: 20px;
   text-align: center;
   background-position: center;
+  transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  overflow-y: auto;
+  ::-webkit-scrollbar {
+    display: none;
+  }
 
   span,
   h4,
@@ -53,7 +64,5 @@ const Card = styled.div`
     span {
       display: block;
     }
-    transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
   }
-  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
 `
