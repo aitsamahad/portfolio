@@ -13,7 +13,7 @@ export default PageWrapper
 
 const Container = styled.div`
   padding: 20px;
-  background-image: url("/assets/blob-bg.svg");
+  background-image: url("/assets/waves.svg");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
