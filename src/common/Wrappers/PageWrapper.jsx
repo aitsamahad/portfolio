@@ -16,6 +16,7 @@ const Container = styled.div`
   background-image: url("/assets/blob-bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 100vh;
 `
 const Inner = styled.div`
   max-width: 1440px;
