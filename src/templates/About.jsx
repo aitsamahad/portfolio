@@ -20,7 +20,7 @@ function About() {
         <p>
           Graduated from Virtual University of Pakistan in Software Engineering,
           I am also working as a part-time Full Stack engineer at iDevelopStudio
-          & Frontend Engineer @ XIOTS (Formely known as CreativeKhan), where I
+          & Frontend Engineer @ XIOTS (Formerly known as CreativeKhan), where I
           work on a wide variety of interesting and meaningful projects on a
           daily basis.
         </p>
