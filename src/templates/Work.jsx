@@ -29,7 +29,7 @@ function Work() {
       <Grid item xs={12}>
         <Grid container spacing={2}>
           {FiveRecentPortfolio?.map((data, index) => (
-            <Grid item xs={4} key={index}>
+            <Grid item xs={12} sm={4} key={index}>
               <PortfolioCard
                 image={data?.image}
                 title={data?.title}

@@ -15,7 +15,7 @@ export const PortfolioData = [
       "Web3",
       "Bootstrap",
     ],
-    madeAt: "XIOTS",
+    madeAt: "--",
   },
   {
     id: 2,

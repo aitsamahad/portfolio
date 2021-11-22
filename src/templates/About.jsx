@@ -6,7 +6,7 @@ import Divider from "@mui/material/Divider"
 function About() {
   return (
     <Grid container spacing={3}>
-      <Grid item xs={6}>
+      <Grid item xs={12} sm={6}>
         <Heading>
           About <br /> <small>Who i am</small>
         </Heading>
@@ -25,7 +25,7 @@ function About() {
           daily basis.
         </p>
       </Grid>
-      <Grid item xs={6} textAlign='right'>
+      <Grid item xs={12} sm={6} textAlign='right'>
         <img
           src='/assets/aitsam-illustration.svg'
           alt='Aitsam Ahad illustration'
