@@ -4,7 +4,6 @@ import Tab from "@mui/material/Tab"
 import Box from "@mui/material/Box"
 import styled from "styled-components"
 import Heading from "@common/Heading"
-import {useTheme} from '@mui/material'
 
 
 function TabPanel(props) {
@@ -36,9 +35,6 @@ function a11yProps(index) {
 
 export default function Qualification() {
   const [value, setValue] = React.useState(0)
-  const theme = useTheme();
-
-  const matches = theme.breakpoints.down('700');
 
   const handleChange = (event, newValue) => {
     setValue(newValue)
@@ -56,7 +52,7 @@ export default function Qualification() {
         }}
       >
         <Tabs
-          orientation={matches ? 'horizontal':'vertical'}
+          orientation='vertical'
           variant='scrollable'
           value={value}
           onChange={handleChange}
