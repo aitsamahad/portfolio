@@ -5,6 +5,7 @@ import Box from "@mui/material/Box"
 import styled from "styled-components"
 import Heading from "@common/Heading"
 
+
 function TabPanel(props) {
   const { children, value, index, ...other } = props
 
