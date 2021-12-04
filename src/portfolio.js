@@ -4,7 +4,7 @@ export const PortfolioData = [
 		title: "Billionaire Club - NFT Landing Page",
 		subtitle: "A Landing page for NFT sell & purchase.",
 		image: "/assets/BillionaireClub.png",
-		link: "https://github.com/aitsamahad/billionaires-club",
+		link: "https://billionaires-club.vercel.app/",
 		tech: ["ReactJS", "Styled Components", "CSS3", "Functional Components", "NextJS", "Material-UI"],
 		madeAt: "--",
 	},
