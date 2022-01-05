@@ -5,6 +5,7 @@ axios.defaults.headers.common["uid"] = `f43d931d1eee42f1b84036006918e80f`
 
 export default async function handler(req, res) {
 	console.log(req.query)
+	res.header("Access-Control-Allow-Origin", "*")
 	const { search } = req?.query
 
 	const removeDuplicates = jsonData?.filter(
