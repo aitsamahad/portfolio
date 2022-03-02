@@ -19,10 +19,10 @@ export const PortfolioData = [
 	},
 	{
 		id: 3,
-		title: "iClerk - Invoicing Solution",
+		title: "Invoicing Solution",
 		subtitle: "Move towards a better invoicing solution.",
-		image: "/assets/iclerk.jpeg",
-		link: "https://paygate-frontend-dev.herokuapp.com",
+		image: "/assets/iclerk1.jpeg",
+		link: "#",
 		tech: [
 			"ReactJS",
 			"Redux",
@@ -41,10 +41,10 @@ export const PortfolioData = [
 	},
 	{
 		id: 4,
-		title: "Drop - Multi Vendor eCommerce",
-		subtitle: "Your favourite restaurants, delivered.",
-		image: "/assets/drop.jpeg",
-		link: "https://droponline.co.uk",
+		title: "Multi Vendor eCommerce",
+		subtitle: "Your favourite restaurants, in your reach.",
+		image: "/assets/drop1.jpeg",
+		link: "#",
 		tech: [
 			"ReactJS",
 			"Session Authentication",
